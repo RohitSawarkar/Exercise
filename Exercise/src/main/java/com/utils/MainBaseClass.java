@@ -8,13 +8,20 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class MainClass {
+public class MainBaseClass {
 
 	public static WebDriver driver;
 	public static Properties prop;
 	
+	public double value1 = 122365.24;
+	public double value2 = 599.00;
+	public double value3 = 850139.99;
+	public double value4 = 23329.50;
+	public double value5 = 566.27;
+	public double TotalBalanceValue = 1000000.00;
 	
-	public MainClass() {
+	
+	public MainBaseClass() {
 		try {
 			prop = new Properties();
 			FileInputStream fis = new FileInputStream("C:\\Users\\Admin\\git\\Exercise\\Exercise\\src\\main\\java\\com\\config\\config.properties");

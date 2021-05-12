@@ -4,9 +4,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.utils.MainClass;
+import com.utils.MainBaseClass;
 
-public class ValuesPage extends MainClass {
+public class ValuesPage extends MainBaseClass {
 
 	@FindBy(id = "lbl_val_1")
 	WebElement LblValue1;
